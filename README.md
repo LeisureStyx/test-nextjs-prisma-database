@@ -80,3 +80,5 @@ event - compiled successfully in 8s (138 modules)
 
 ### 3. See if its actually worked:
 You can see if this project works by going to `localhost:3000` and `localhost:3000/users` , additionally you can check `localhost:3000/api/database` to see if your data is actually taken from your database into JSON.
+
+You can check if response code is `200 OK` in Postman including the data from database.
