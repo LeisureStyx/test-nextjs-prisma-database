@@ -62,6 +62,9 @@ And it will open automatically in your browser. If not, you open it manually: `l
 
 Select User model, and begin add records as much as you want(I tested this with 3 id). `id` will be autoincrement, means that it will automatically insert a Int number(start at 1), `name` and `email` self-explainatory, just note that `email` have to be unique, and for `createdAt` will be automatically insert the date that you create this record.
 
+![image](https://user-images.githubusercontent.com/129574206/233072372-5d148cea-8bfe-41f8-b910-625326255ba3.png)
+
+
 ### 2. :rocket: Run the local web/development server:
 ```bash
 npm run dev
@@ -80,5 +83,10 @@ event - compiled successfully in 8s (138 modules)
 
 ### 3. See if its actually worked:
 You can see if this project works by going to `localhost:3000` and `localhost:3000/users` , additionally you can check `localhost:3000/api/database` to see if your data is actually taken from your database into JSON.
+
+![image](https://user-images.githubusercontent.com/129574206/233072622-f97ef16d-e372-49ed-8d54-96d517fd9d98.png)
+![image](https://user-images.githubusercontent.com/129574206/233072687-572b26e5-1a34-4d99-af01-e7880e1ea345.png)
+
+You can also click "Customers" for going to `localhost:3000/users`, and "Test" for going back to the root or `localhost:3000`
 
 You can check if response code is `200 OK` in Postman including the data from database.
